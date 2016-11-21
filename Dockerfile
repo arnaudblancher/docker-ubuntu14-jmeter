@@ -51,4 +51,3 @@ ADD user.properties $JMETER_CUR_VER_PATH/apache-jmeter-$JMETER_VERSION/bin/
 
 # directory holding our jmeter scenarii files (sent there using ansible)
 RUN mkdir -p /etc/jmeter/$JMETER_VERSION/scenarii
-
